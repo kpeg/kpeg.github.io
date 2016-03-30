@@ -1,14 +1,18 @@
 body {
 	text-align: center;
 	align-content: center;
+	font-style: Arial, sans-serif;
 }
 
 h1 {
-	color: #75b88f
-	font-style: Arial, sans-serif;
+	color: #75b88f;
 }
 
 #slogan {
 	color: #3d3d3d;
 	font-style: italic;
+}
+
+p {
+	width: 300 px;
 }
