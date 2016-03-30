@@ -24,3 +24,7 @@ p {
 ul {
     list-style-type: none;
 }
+
+a:link {
+	color: #75b88f;
+}
