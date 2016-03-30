@@ -17,9 +17,8 @@ h1 {
 }
 
 p {
-	margin-left: 300 px;
-	margin-right: 300 px;
-	text-align: justify;
+	padding-left: 300 px;
+	padding-right: 300 px;
 }
 
 ul {
