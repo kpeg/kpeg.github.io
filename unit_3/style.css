@@ -17,10 +17,10 @@ h1 {
 }
 
 p {
-	padding-left: 200 px;
-	padding-right: 200 px;
+	margin-left: 100 px;
+	margin-right: 100 px;
 }
 
-a {
-	color: #75b88f;
+ul {
+    list-style-type: none;
 }
