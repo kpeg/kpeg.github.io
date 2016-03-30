@@ -9,6 +9,7 @@ body {
 
 h1 {
 	font-weight: bold;
+	color: rgba(255,255,255,.5);
 }
 
 #slogan {
@@ -18,4 +19,8 @@ h1 {
 p {
 	padding-left: 200 px;
 	padding-right: 200 px;
+}
+
+a {
+	color: #75b88f;
 }
