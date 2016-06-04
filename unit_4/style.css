@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	background: url(images/computer.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Londrina Solid', cursive;
+	color: rgba(255,255,255,.5);
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+}
+
+p {
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+	color: #75b88f;
+}
