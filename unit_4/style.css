@@ -16,9 +16,11 @@ h1 {
 
 #slogan {
 	font-family: 'Londrina Solid';
+	font-size: 2em;
 }
 
 p {
+	font size: 10px;
 	padding-left: 300px;
 	padding-right: 300px;
 }
