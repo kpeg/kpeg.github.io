@@ -11,13 +11,11 @@ body {
 }
 
 h1 {
-	font-family: 'Londrina Solid';
 	color: rgba(255,255,255,.5);
 }
 
 #slogan {
-	font-style: italic;
-	font-weight: bold;
+	font-family: 'Londrina Solid';
 }
 
 p {
