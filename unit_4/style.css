@@ -14,6 +14,20 @@ h1 {
 	color: rgba(255,255,255,.5);
 }
 
+p {
+	font size: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+	color: #75b88f;
+}
+
 #slogan {
 	font-family: 'Londrina Solid';
 	font-size: 2em;
@@ -28,18 +42,4 @@ h1 {
 	padding-top: 7em;
 	text-transform: uppercase;
 	font-size:2em;
-}
-
-p {
-	font size: 10px;
-	padding-left: 300px;
-	padding-right: 300px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a:link {
-	color: #75b88f;
 }
