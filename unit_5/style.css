@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+header {
+	background-color: #FFED73;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	background: url(images/computer.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: rgba(255,255,255,.5);
+}
+
+p {
+	font size: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+	color: #75b88f;
+}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 2em;
+}
+
+#logo {
+	padding-top:100px;
+}
+
+#contact {
+	font-weight: bold;
+	padding-top: 7em;
+	text-transform: uppercase;
+}
