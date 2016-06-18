@@ -5,7 +5,7 @@ header {
 	background-color: #FFED73;
 	border: 1px black solid;
 	padding: 20px;
-	background: url(images/computer.jpg);
+	background: url(images/computer.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 
