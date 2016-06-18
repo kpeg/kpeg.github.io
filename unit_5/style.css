@@ -84,13 +84,17 @@ a:link {
 	color: #75b88f;
 }
 
+#wrapper {
+	margin: 0 auto;
+	}
+
 #slogan {
 	font-family: 'Londrina Solid';
 	font-size: 2em;
 }
 
 #logo {
-	padding-top:100px;
+	padding:10px;
 }
 
 #contact {
