@@ -106,7 +106,8 @@ a:link {
 }
 
 #logo {
-	padding:10px;
+	padding:10px 0px;
+	margin: 10px 0px;
 }
 
 #contact {
