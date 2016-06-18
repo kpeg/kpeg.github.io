@@ -19,16 +19,12 @@ aside {
 	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
-	float: left;
-	width:50%;
-	height: 500px;
 }
 
 article {
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
-	height: 500px;
 }
 
 footer {
