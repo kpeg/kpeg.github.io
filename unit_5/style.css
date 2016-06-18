@@ -12,7 +12,6 @@ header {
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
-	padding: 20px;
 }
 
 aside {
@@ -101,7 +100,7 @@ a:link {
 
 #slogan {
 	font-family: 'Londrina Solid';
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #logo {
