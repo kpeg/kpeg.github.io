@@ -61,19 +61,23 @@ p {
 }
 
 ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #E8C66A;;
+    background-color: #E8C66A;
 }
 
 li {
-	display: inline;
+	float: left;
 }
 
 li a {
     display: block;
     color: background-color: #E8C66A;
+    text-align: center;
     padding: 8px 0 8px 16px;
     text-decoration: none;
 }
