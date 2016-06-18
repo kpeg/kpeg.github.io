@@ -5,6 +5,8 @@ header {
 	background-color: #FFED73;
 	border: 1px black solid;
 	padding: 20px;
+	background: url(images/computer.jpg);
+	background-size: 90%;
 }
 
 nav {
@@ -42,8 +44,6 @@ body {
 	text-align: center;
 	align-content: center;
 	font-family: 'Work Sans', sans-serif;
-	background: url(images/computer.jpg);
-	background-size: cover;
 }
 
 h1 {
