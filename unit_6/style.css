@@ -10,7 +10,8 @@ header {
 nav {
 	background-color: #75b88f;
 	border: none;
-	padding: 20px;
+	padding: 6px 8px;
+	align: center;
 }
 
 section {
