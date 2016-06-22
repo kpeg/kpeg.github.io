@@ -7,17 +7,6 @@ header {
 	background-size: cover;
 }
 
-nav {
-	background-color: #75b88f;
-	border: none;
-	padding: 6px 8px;
-	align: center;
-}
-
-section {
-	clear:both;
-}
-
 body {
 	color: #ffffff;
 	text-align: center;
@@ -31,20 +20,6 @@ h2 {
 
 p {
 	font size: 10px;
-}
-
-a {
-    display: block;
-    color: white;
-    background-color: #75b88f;
-    text-align: center;
-    padding: 20px;
-    float: left;
-    text-decoration: none;
-}
-
-a:hover {
-	background-color: #454545;
 }
 
 footer {
@@ -70,42 +45,4 @@ footer {
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
-}
-
-#aboutleft{
-	background-color: #454545;
-	float: left;
-	width: 45%;
-	padding: 20px;
-}
-
-#aboutright {
-	background-color: #545454;
-	float: right;
-	width: 45%;
-	padding: 20px;
-}
-
-#contactleft{
-	background-color: #454545;
-	float: left;
-	width: 45%;
-	padding: 20px;
-}
-
-#contactright {
-	background-color: #545454;
-	float: right;
-	width: 45%;
-	padding: 20px;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-    font-size: 0;
 }
