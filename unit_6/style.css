@@ -26,7 +26,7 @@ article {
 }
 
 section {
-	background-color: #FFE2B8;
+
 }
 
 body {
@@ -34,10 +34,6 @@ body {
 	text-align: center;
 	align-content: center;
 	font-family: 'Work Sans', sans-serif;
-}
-
-h1 {
-	color: rgba(255,255,255,.5);
 }
 
 h2 {
@@ -53,7 +49,7 @@ a {
     color: white;
     background-color: #75b88f;
     text-align: center;
-    padding: 8px 16px;
+    padding: 20px;
     float: left;
     text-decoration: none;
 }
@@ -77,6 +73,7 @@ footer {
 #slogan {
 	font-family: 'Londrina Solid';
 	font-size: 1.5em;
+	margin: 20px;
 }
 
 #logo {
@@ -91,24 +88,19 @@ footer {
 }
 
 #two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: #blue;
 }
 
 #left{
-	background-color: violet;
-	border: 1px black solid;
+	background-color: #454545;
 	float: left;
-	width: 45%;
+	width: 50%;
 }
 
 #right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: white;
 	float: right;
-	width: 45%;
+	width: 50%;
 }
 
 .clearfix:after {
@@ -122,6 +114,6 @@ footer {
 }
 
 div.kelly {
-	width: 100%;
+	width: 45%;
 	height: auto;
 }
