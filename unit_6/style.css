@@ -14,7 +14,7 @@ nav {
 }
 
 section {
-
+	clear:both;
 }
 
 body {
@@ -42,6 +42,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+	background-color: #454545;
+}
+
 footer {
 	background-color: #75b88f;
 	padding: 20px;
@@ -51,29 +55,20 @@ footer {
 	margin: 0 auto;
 	}
 
-#slogan {
-	font-family: 'Londrina Solid';
-	font-size: 1.5em;
-	margin: 20px;
-}
-
 #logo {
 	padding:10px 0px;
 	margin: 10px 0px 0px 0px;
+}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 1.5em;
 }
 
 #contact {
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
-}
-
-#two {
-	clear: both;
-}
-
-#two_column {
-	background-color: #blue;
 }
 
 #left{
@@ -84,7 +79,7 @@ footer {
 }
 
 #right {
-	background-color: white;
+	background-color: #545454;
 	float: right;
 	width: 45%;
 	padding: 20px;
