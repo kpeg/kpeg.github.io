@@ -4,6 +4,7 @@
 header {
 	background: url(images/computer.jpg) no-repeat center center fixed;
 	background-size: 100% auto;
+	height: 100%;
 }
 
 body {
