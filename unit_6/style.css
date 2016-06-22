@@ -46,13 +46,17 @@ a:hover {
 	background-color: #545454;
 }
 
-aside: {
+section {
+	clear: both;
+}
+
+aside {
 	background-color: grey;
 	float: left;
 	width: 30%;
 }
 
-article: {
+article {
 	background-color: orange;
 	width: 40%;
 }
