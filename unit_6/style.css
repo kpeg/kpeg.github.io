@@ -72,14 +72,28 @@ footer {
 	text-transform: uppercase;
 }
 
-#left{
+#aboutleft{
 	background-color: #454545;
 	float: left;
 	width: 45%;
 	padding: 20px;
 }
 
-#right {
+#aboutright {
+	background-color: #545454;
+	float: right;
+	width: 45%;
+	padding: 20px;
+}
+
+#contactleft{
+	background-color: #454545;
+	float: left;
+	width: 45%;
+	padding: 20px;
+}
+
+#contactright {
 	background-color: #545454;
 	float: right;
 	width: 45%;
