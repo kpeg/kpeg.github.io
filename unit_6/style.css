@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+header {
+	background-color: #FFED73;
+	border: 1px black solid;
+	padding: 20px;
+	background: url(images/computer.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height:100%;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	color: rgba(255,255,255,.5);
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font size: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #E8C66A;
+    text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 8px 16px;
+	text-align: center;
+}
+
+li a {
+    display: block;
+    color: background-color: #E8C66A;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+
+a:link {
+	color: #75b88f;
+}
+
+#wrapper {
+	margin: 0 auto;
+	}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 1.5em;
+}
+
+#logo {
+	padding:10px 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+#contact {
+	font-weight: bold;
+	padding-top: 7em;
+	text-transform: uppercase;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+}
