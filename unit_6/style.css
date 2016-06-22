@@ -54,12 +54,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: #555;
-    color: white;
-    text-align: center;
-}
-
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
@@ -87,6 +81,11 @@ footer {
 	text-transform: uppercase;
 }
 
+#two {
+	clear:both;
+}
+
+
 #two_column {
 	background-color: #blue;
 }
@@ -111,9 +110,4 @@ footer {
     clear: both;
     height: 0;
     font-size: 0;
-}
-
-div.kelly {
-	width: 45%;
-	height: auto;
 }
