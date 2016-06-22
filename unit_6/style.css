@@ -127,7 +127,7 @@ a:link {
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 30%;
+	width: 45%;
 }
 
 #right {
@@ -135,7 +135,7 @@ a:link {
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 45%;
 }
 
 .clearfix:after {
