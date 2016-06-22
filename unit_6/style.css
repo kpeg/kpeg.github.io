@@ -3,8 +3,6 @@
 
 header {
 	background-color: #FFED73;
-	border: 1px black solid;
-	padding: 20px;
 	background: url(images/computer.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
@@ -29,8 +27,6 @@ article {
 
 section {
 	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
 }
 
 body {
@@ -120,8 +116,10 @@ footer {
 }
 
 #left{
+	background-color: violet;
+	border: 1px black solid;
 	float: left;
-	width: 50%;
+	width: 45%;
 }
 
 #right {
