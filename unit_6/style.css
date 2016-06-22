@@ -13,18 +13,6 @@ nav {
 	padding: 20px;
 }
 
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 section {
 
 }
@@ -55,8 +43,7 @@ a {
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #75b88f;
 	padding: 20px;
 }
 
@@ -82,9 +69,8 @@ footer {
 }
 
 #two {
-	clear:both;
+	clear: both;
 }
-
 
 #two_column {
 	background-color: #blue;
@@ -93,13 +79,15 @@ footer {
 #left{
 	background-color: #454545;
 	float: left;
-	width: 50%;
+	width: 45%;
+	padding: 20px;
 }
 
 #right {
 	background-color: white;
 	float: right;
-	width: 50%;
+	width: 45%;
+	padding: 20px;
 }
 
 .clearfix:after {
