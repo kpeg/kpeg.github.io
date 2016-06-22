@@ -7,7 +7,6 @@ header {
 	padding: 20px;
 	background: url(images/computer.jpg) no-repeat center center fixed;
 	background-size: cover;
-	height:100%;
 }
 
 nav {
@@ -16,8 +15,14 @@ nav {
 	padding: 20px;
 }
 
-footer {
-	background-color: #FF957E;
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -45,8 +50,6 @@ h2 {
 
 p {
 	font size: 10px;
-	padding-left: 300px;
-	padding-right: 300px;
 }
 
 ul {
@@ -82,6 +85,12 @@ li a:hover {
 
 a:link {
 	color: #75b88f;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #wrapper {
