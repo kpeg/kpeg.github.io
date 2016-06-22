@@ -49,7 +49,7 @@ aside {
 article {
 	background-color: orange;
 	float: right;
-	width: 40%;
+	width: 60%;
 }
 
 footer {
@@ -88,4 +88,5 @@ footer {
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
+
 }
