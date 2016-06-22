@@ -58,6 +58,7 @@ aside {
 
 article {
 	background-color: orange;
+	float: right;
 	width: 40%;
 }
 
