@@ -3,11 +3,8 @@
 
 header {
 	background: url(images/computer.jpg);
-	background-size: 100% auto;
-}
-
-header img {
 	height:100vh;
+	background-size: 100% auto;
 }
 
 body {
