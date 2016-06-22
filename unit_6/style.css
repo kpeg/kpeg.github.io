@@ -46,6 +46,15 @@ a:hover {
 	background-color: #545454;
 }
 
+aside: {
+	background-color: grey;
+	float:left;
+}
+
+article: {
+	background-color: orange;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
