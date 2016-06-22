@@ -10,13 +10,13 @@ header {
 }
 
 nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
+	background-color: #75b88f;
+	border: none;
 	padding: 20px;
 }
 
 aside {
-	background-color: #FFC675;
+	background: url(images/about_kpeg.png) no-repeat center center fixed;
 	border: 1px black solid;
 	padding: 20px;
 }
