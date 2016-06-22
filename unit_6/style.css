@@ -22,8 +22,10 @@ p {
 }
 
 footer {
+	clear: both;
 	background-color: #75b88f;
 	padding: 20px;
+	width: 100%;
 }
 
 nav {
