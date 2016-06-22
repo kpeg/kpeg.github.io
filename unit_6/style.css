@@ -16,7 +16,7 @@ nav {
 }
 
 aside {
-	background: url(images/about_kpeg.png) no-repeat center center fixed;
+	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
 }
