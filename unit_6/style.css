@@ -2,9 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
 
 header {
-	background-color: #FFED73;
 	background: url(images/computer.jpg) no-repeat center center fixed;
-	background-size: cover;
+	background-size: 100% auto;
 }
 
 body {
