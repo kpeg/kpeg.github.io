@@ -48,11 +48,13 @@ a:hover {
 
 aside: {
 	background-color: grey;
-	float:left;
+	float: left;
+	width: 30%;
 }
 
 article: {
 	background-color: orange;
+	width: 40%;
 }
 
 .clearfix:after {
