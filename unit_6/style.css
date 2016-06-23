@@ -33,20 +33,11 @@ section {
 	clear: both;
 }
 
-aside {
-	background-color: grey;
-	float: left;
-	width: 40%;
-}
-
 aside img {
 	width: 100%;
 }
 
 article {
-	background-color: #d4d4d4;
-	float: right;
-	width: 60%;
 }
 
 footer {
@@ -103,10 +94,6 @@ a:hover #navelements {
     text-align: center;
 }
 
-#copyright {
-	padding: 20px;
-}
-
 #wrapper {
 	margin: 0 auto;
 	}
@@ -121,9 +108,35 @@ a:hover #navelements {
 	margin-bottom: 25px;
 }
 
+#aboutimage {
+	float: left;
+	width: 40%;
+}
+
+#contactimage {
+	float: right;
+	width: 40%;
+}
+
+#aboutcontent{
+	background-color: #d4d4d4;
+	float: right;
+	width: 60%;
+}
+
+#contactcontent{
+	background-color: #d4d4d4;
+	float: left;
+	width: 60%;
+}
+
 #email {
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
 
+}
+
+#copyright {
+	padding: 20px;
 }
