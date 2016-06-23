@@ -25,6 +25,7 @@ p {
 
 nav {
 	 background-color: #75b88f;
+	 padding: 20px;
 }
 
 a {
@@ -63,7 +64,7 @@ footer {
 .navsection {
 }
 
-ul #mainnav {
+ul {
 	position: fixed;
     top: 0;
     width: 100%;
