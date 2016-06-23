@@ -74,13 +74,11 @@ ul #mainnav {
 	color: white;
 	height: 50px;
 	text-transform: uppercase;
-	float: left;
 }
 
 li #navelements {
     display: inline-block;
     padding: 8px 16px;
-    text-decoration: none;
     text-align: center;
 }
 
@@ -94,6 +92,7 @@ li #navelements a {
 
 li #navelements a:hover {
    background-color: #545454;
+   color: white;
    text-align: center;
 }
 
