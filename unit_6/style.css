@@ -125,6 +125,12 @@ li a:hover #navelements {
 	padding: 2.5%;
 }
 
+#two {
+	clear: both;
+	background-color: #75b88f;
+	height: 50px;
+}
+
 #three {
 	background-color: #d4d4d4;
 }
