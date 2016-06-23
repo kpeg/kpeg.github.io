@@ -141,11 +141,8 @@ li a:hover #navelements {
 	padding: 2.5%;
 }
 
-a #contactcontent {
-	color: #545454;
-}
-
 #email {
+	color: #545454;
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
