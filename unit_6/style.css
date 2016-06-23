@@ -71,18 +71,15 @@ ul {
 	padding: 0;
 	background-color: #75b88f;
 	text-align: center;
-	color: white;
-	height: 50px;
-	text-transform: uppercase;
 }
 
-li #navelements {
+li {
     display: inline-block;
     padding: 8px 16px;
     text-align: center;
 }
 
-li #navelements a {
+li a {
 	display: block;
     color: background-color: #75b88f;
     text-align: center;
@@ -90,7 +87,7 @@ li #navelements a {
     text-decoration: none;
 }
 
-li #navelements a:hover {
+li a:hover #navelements {
    background-color: #545454;
    color: white;
    text-align: center;
