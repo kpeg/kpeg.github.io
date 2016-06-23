@@ -66,6 +66,8 @@ footer {
 }
 
 #mainnav {
+	position: fixed;
+    top: 0;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
