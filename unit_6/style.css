@@ -141,8 +141,10 @@ li a:hover #navelements {
 	padding: 2.5%;
 }
 
-#email {
+a #email {
 	color: #545454;
+}
+#email {
 	font-weight: bold;
 	padding-top: 7em;
 	text-transform: uppercase;
