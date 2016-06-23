@@ -87,7 +87,7 @@ footer {
 	text-align: center;
 }
 
-#navelements li {
+li #navelements {
     display: block;
     text-align: center;
     padding: 8px 16px;
@@ -95,9 +95,8 @@ footer {
     text-align: center;
 }
 
-a:hover #navelements {
+a:hover {
     background-color: #545454;
-    color: white;
     text-align: center;
 }
 
@@ -155,4 +154,5 @@ a:hover #navelements {
 }
 
 #copyright {
+	padding: 5px;
 }
