@@ -31,7 +31,6 @@ nav {
 
 section {
 	clear: both;
-	height:100vh;
 }
 
 aside {
@@ -65,6 +64,34 @@ footer {
 	height: 0;
 	font-size: 0;
 	}
+
+.column .container{
+	padding-right: 330px;
+	overflow: hidden;
+}
+
+.content {
+	float: left;
+	width: 100%;
+	background-color: blue;
+}
+
+.sidebar {
+	float: right;
+	margin-right: -330px;
+	width: 300px;
+	background-color: orange;
+}
+
+.sidebar, .content {
+	padding-bottom: 99999px;
+	margin-bottom: -99999px;
+}
+
+section, aside {
+	padding: 30px;
+}
+
 
 .navsection {
 	text-decoration: none;
