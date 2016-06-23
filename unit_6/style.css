@@ -108,13 +108,12 @@ a:hover #navelements {
 	margin-bottom: 25px;
 }
 
-#aboutimage {
-	float: left;
-	width: 40%;
+#one {
+	background-color: #d4d4d4;
 }
 
-#contactimage {
-	float: right;
+#aboutimage {
+	float: left;
 	width: 40%;
 }
 
@@ -123,6 +122,15 @@ a:hover #navelements {
 	float: right;
 	width: 55%;
 	padding: 2.5%;
+}
+
+#three {
+	background-color: #d4d4d4;
+}
+
+#contactimage {
+	float: right;
+	width: 40%;
 }
 
 #contactcontent{
