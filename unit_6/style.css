@@ -26,7 +26,7 @@ p {
 nav {
 	background-color: #75b88f;
 	width: 100%;
-	height: 30px;
+	height: 50px;
 }
 
 section {
@@ -44,7 +44,7 @@ footer {
 	clear: both;
 	background-color: #75b88f;
 	width: 100%;
-	height: 30px;
+	height: 50px;
 }
 
 .clearfix:after {
@@ -82,15 +82,16 @@ footer {
 	text-align: center;
 }
 
-a #navelements {
+#navelements li {
     display: block;
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover #navelements {
-    background-color: #555;
+    background-color: #545454;
     color: white;
     text-align: center;
 }
