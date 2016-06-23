@@ -122,12 +122,14 @@ a:hover #navelements {
 	background-color: #d4d4d4;
 	float: right;
 	width: 60%;
+	padding: 20px;
 }
 
 #contactcontent{
 	background-color: #d4d4d4;
 	float: left;
 	width: 60%;
+	padding: 20px;
 }
 
 #email {
