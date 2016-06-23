@@ -120,7 +120,6 @@ li a:hover #navelements {
 
 #aboutcontent{
 	color: #545454;
-	background-color: #d4d4d4;
 	float: right;
 	width: 55%;
 	padding: 2.5%;
@@ -137,10 +136,13 @@ li a:hover #navelements {
 
 #contactcontent{
 	color: #545454;
-	background-color: #d4d4d4;
 	float: left;
 	width: 55%;
 	padding: 2.5%;
+}
+
+a #contactcontent {
+	color: #545454;
 }
 
 #email {
