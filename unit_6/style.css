@@ -121,15 +121,15 @@ a:hover #navelements {
 #aboutcontent{
 	background-color: #d4d4d4;
 	float: right;
-	width: 60%;
-	padding: 20px;
+	width: 55%;
+	padding: 2.5%;
 }
 
 #contactcontent{
 	background-color: #d4d4d4;
 	float: left;
-	width: 60%;
-	padding: 20px;
+	width: 55%;
+	padding: 2.5%;
 }
 
 #email {
