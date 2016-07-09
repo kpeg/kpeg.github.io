@@ -170,4 +170,36 @@ a #email {
     margin: 0;
     padding: 0;
 	}
+
+	#logo {
+		width: 200px;
+		height: auto;
+	}
+
+	#slogan {
+	margin-bottom: 10%;
+	}
+
+	#aboutimage {
+	float: none;
+	width: auto;
+	}
+
+	#aboutcontent{
+	color: #545454;
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
+
+	#contactimage {
+	float: none;
+	width: auto;
+	}
+
+	#contactcontent{
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
 }
