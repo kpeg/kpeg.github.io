@@ -154,7 +154,7 @@ a #email {
 	top: 50%;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 768px) {
 	ul {
     list-style-type: none;
     margin: 0;
