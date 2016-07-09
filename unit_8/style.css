@@ -182,9 +182,6 @@ a #email {
 	}
 
 	#logo {
-		position: fixed:
-		top: 50%
-		bottom: 50%
 		width: 200px;
 		height: auto;
 		padding:0px 0px 0px 0px;
@@ -193,7 +190,7 @@ a #email {
 	#slogan {
 		font-size: 1em;
 		margin-bottom: 2%;
-		color: grey;
+		color: #545454;
 	}
 
 	#aboutimage {
