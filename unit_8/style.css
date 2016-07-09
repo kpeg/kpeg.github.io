@@ -147,7 +147,7 @@ a #email {
 	top: 50%;
 }
 
-.navelements a:hover {
+.navelements:hover {
    background-color: #545454;
    color: white;
    text-align: center;
@@ -155,10 +155,9 @@ a #email {
 
 @media only screen and (max-width: 768px) {
 
-
 	ul {
 	position: fixed;
-    top: 100%;
+    bottom: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -169,5 +168,21 @@ a #email {
     display: block;
     margin: 0;
     padding: 0;
+	}
+
+	#nav1 {
+	background-color: red;
+	}
+
+	#nav2 {
+	background-color: blue;
+	}
+
+	#nav3 {
+	background-color: red;
+	}
+
+	#nav4 {
+	background-color: blue;
 	}
 }
