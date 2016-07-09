@@ -157,8 +157,8 @@ a #email {
 	header {
 		background: url(images/computer.jpg)
 		background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	background-position: 50% 0%; 
+    	background-attachment: relative;
+    	background-position: 4em 0em; 
 		background-size: 100% auto;
 	}
 
