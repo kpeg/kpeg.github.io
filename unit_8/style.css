@@ -182,11 +182,12 @@ a #email {
 	}
 
 	#logo {
-		position: absolute;
-   		top: 50%;
-   		left: 50%;
-		width: 180px;
+		position: fixed;
+		top: 50%;
+		bottom: 50%;
+		width: 200px;
 		height: auto;
+		padding:20vh 0px 0px 0px;
 	}
 
 	#slogan {
