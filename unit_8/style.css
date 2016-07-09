@@ -158,7 +158,7 @@ a #email {
 		background: url(images/computer.jpg)
 		background-repeat: no-repeat;
     	background-attachment: fixed;
-    	background-position: 30% 0%; 
+    	background-position: 50% 0%; 
 		background-size: 100% auto;
 	}
 
@@ -184,7 +184,7 @@ a #email {
 	#logo {
 		width: 200px;
 		height: auto;
-		padding:5vh 0px 0px 0px;
+		padding:20vh 0px 0px 0px;
 	}
 
 	#slogan {
