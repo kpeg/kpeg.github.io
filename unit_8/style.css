@@ -168,7 +168,7 @@ a #email {
 
 	ul {
 	position: fixed;
-    bottom: 0;
+    top: 0;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
