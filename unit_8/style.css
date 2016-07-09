@@ -219,3 +219,12 @@ a #email {
 	}
 
 }
+
+@media all and (orientation:portrait) {
+   background: url(images/computer_v.jpg)
+   background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: 0em 8em; 
+	background-size: 100% auto;
+	height: 60vh; 
+}
