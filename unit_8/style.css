@@ -79,13 +79,6 @@ li a {
     text-decoration: none;
 }
 
-li #navelements a:hover {
-   background-color: #545454;
-   color: white;
-   text-align: center;
-}
-
-
 #wrapper {
 	margin: 0 auto;
 	}
@@ -152,6 +145,12 @@ a #email {
 #copyright {
 	position: relative;
 	top: 50%;
+}
+
+.navelements a:hover {
+   background-color: #545454;
+   color: white;
+   text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
