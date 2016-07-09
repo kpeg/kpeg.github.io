@@ -153,6 +153,31 @@ a #email {
    text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+	#aboutimage {
+	float: none;
+	width: auto;
+	}
+
+	#aboutcontent{
+	color: #545454;
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
+
+	#contactimage {
+	float: none;
+	width: auto;
+	}
+
+	#contactcontent{
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
+}
+
 @media only screen and (max-width: 540px) {
 	header {
 		background: url(images/computer.jpg)
@@ -192,26 +217,4 @@ a #email {
 		margin-bottom: 2%;
 	}
 
-	#aboutimage {
-	float: none;
-	width: auto;
-	}
-
-	#aboutcontent{
-	color: #545454;
-	float: none;
-	width: auto;
-	padding: 2.5%;
-	}
-
-	#contactimage {
-	float: none;
-	width: auto;
-	}
-
-	#contactcontent{
-	float: none;
-	width: auto;
-	padding: 2.5%;
-	}
 }
