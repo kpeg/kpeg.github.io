@@ -156,6 +156,7 @@ a #email {
 @media only screen and (max-width: 768px) {
 	header {
 		width: 100%;
+		height: auto;
 	}
 
 	body {
@@ -180,6 +181,7 @@ a #email {
 	#logo {
 		width: 200px;
 		height: auto;
+		padding:5vh 0px 0px 0px;
 	}
 
 	#slogan {
