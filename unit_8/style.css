@@ -185,6 +185,7 @@ a #email {
     	background-attachment: relative;
     	background-position: 0em 8em; 
 		background-size: 100% auto;
+		height: 60vh;
 	}
 
 	body {
