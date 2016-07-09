@@ -178,7 +178,7 @@ a #email {
 	}
 }
 
-@media only screen and (max-width: 545px) {
+@media only screen and (max-width: 550px) {
 	header {
 		background: url(images/computer.jpg)
 		background-repeat: no-repeat;
