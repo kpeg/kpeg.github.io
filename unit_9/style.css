@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+header {
+	background: url(images/computer.jpg) no-repeat center center fixed;
+	height:100vh;
+	background-size: 100% auto;
+}
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	margin: 0%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font size: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	clear: both;
+}
+
+aside img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	background-color: #75b88f;
+	width: 100%;
+	height: 3em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: “ “;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	}
+
+ul {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #75b88f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+li a {
+	display: block;
+    background-color: #75b88f;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	}
+
+#logo {
+	padding:30vh 0px 0px 0px;
+}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 1.5em;
+	margin-bottom: 25px;
+}
+
+#one {
+	background-color: white;
+	height: 100vh;
+}
+
+#aboutimage {
+	float: left;
+	width: 40%;
+	padding: 5%;
+}
+
+#aboutcontent{
+	color: #545454;
+	float: right;
+	width: 30%;
+	padding: 5% 10% 0% 10%;
+}
+
+#two {
+	clear: both;
+	background-color: #white;
+	height: auto;
+}
+
+#row1, #row2, #row3 {
+	width: 100%;
+}
+
+#three {
+	background-color: white;
+}
+
+#contactimage {
+	float: right;
+	width: 50%;
+}
+
+#contactcontent{
+	color: #545454;
+	float: left;
+	width: 30%;
+	padding: 10% 10% 10% 10%;
+}
+
+#email a {
+	color: #75b88f;
+}
+
+#email a:hover {
+	color: purple;
+}
+
+#email {
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+#copyright {
+	position: relative;
+	top: 1em;
+}
+
+.navelements a:hover {
+   background-color: #545454;
+   color: white;
+   text-align: center;
+}
+
+.portfoliorow img {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+	background: white;
+	background: url(images/computer.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 16px;
+	}
+	
+	#logo {
+		width: 200px;
+		height: auto;
+		padding:8em 0px 0px 0px;
+	}
+
+	#slogan {
+		padding-bottom: 2em;
+	}
+
+	#one {
+		height: auto;
+	}
+
+	#aboutimage {
+	float: none;
+	width: auto;
+	}
+
+	#aboutcontent{
+	color: #545454;
+	float: none;
+	width: auto;
+	padding: 2% 10% 10% 10%;
+	}
+
+	#contactimage {
+	float: none;
+	width: auto;
+	}
+
+	#contactcontent{
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+		
+	header {
+	background: white;
+	background: url(images/computer.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	ul {
+	position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	}
+
+	li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+	}
+
+	#logo {
+		width: 120px;
+		height: auto;
+		padding:12em 0px 0px 0px;
+	}
+
+	#slogan {
+		font-size: 1em;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+body {
+	font-size: 10px;
+}
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    width:60%;
+  }
+
+.portfoliorow {
+ display:block;
+}
+
+}
+
+@media only screen and (orientation:portrait) {
+   header {
+   	background: url(images/computer_v.jpg)
+   	background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: 0em 8em; 
+	background-size: 100% auto;
+	height: 60vh; 
+	}
+}
