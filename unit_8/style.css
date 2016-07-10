@@ -229,7 +229,13 @@ a #email {
 
 }
 
-@media all and (orientation:portrait) {
+@media only screen and (max-width: 480px) {
+body {
+	font-size: 10px;
+}
+
+}
+	@media all and (orientation:portrait) {
    header {background: url(images/computer_v.jpg)
    background-repeat: no-repeat;
     background-attachment: relative;
