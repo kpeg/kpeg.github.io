@@ -258,6 +258,10 @@ li a {
 		font-size: 1em;
 	}
 
+	#cell a {
+	color: blue;
+	}
+
 }
 
 @media only screen and (max-width: 480px) {
