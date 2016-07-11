@@ -275,6 +275,9 @@ body {
  display:block;
 }
 
+#cell {
+	color: #545454;
+}
 }
 
 @media only screen and (orientation:portrait) {
