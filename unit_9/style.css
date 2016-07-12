@@ -126,15 +126,18 @@ li a {
 }
 
 #contactimage {
+	display: block;
 	float: right;
 	width: 50%;
+	height: auto;
 }
 
 #contactcontent{
+	display: block;
 	color: #545454;
 	float: left;
 	width: 30%;
-	padding: 10% 10% 10% 10%;
+	padding: 10%;
 }
 
 #email a {
@@ -163,6 +166,7 @@ li a {
 }
 
 .portfoliorow img {
+	display: block;
 	width: 100%;
 	height: auto;
 	padding: 0;
