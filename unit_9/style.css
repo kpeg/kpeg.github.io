@@ -183,7 +183,16 @@ li a {
 }
 
 .portfolioitem {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
 	overflow: hidden;
+}
+
+.portfolioitem img {
+   width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
