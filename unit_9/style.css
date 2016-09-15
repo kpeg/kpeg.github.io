@@ -165,16 +165,25 @@ li a {
    text-align: center;
 }
 
+.wrap {
+	overflow: hidden;
+
+}
 .portfoliorow {
 	font-size: 0;
 }
 
-.portfoliorow img {
-	display: inline-block;
+.portfoliorow {
+	float: left;
+	position: relative;
 	width: 20%;
 	height: auto;
 	padding: 0;
 	margin: 0;
+}
+
+.portfolioitem {
+	overflow: hidden;
 }
 
 @media only screen and (max-width: 768px) {
