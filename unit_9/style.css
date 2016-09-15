@@ -166,6 +166,7 @@ li a {
 }
 
 .portfoliorow img {
+	display: inline-block;
 	width: 20%;
 	height: auto;
 	padding: 0;
