@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+header {
+	background: url(images/computer.gif) no-repeat center center fixed;
+	height:100vh;
+	background-size: 100% auto;
+}
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	margin: 0%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font size: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	clear: both;
+}
+
+aside img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	background-color: #75b88f;
+	width: 100%;
+	height: 3em;
+}
+
+.navigation {
+    list-style: none;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+label[for="nav-trigger"] {
+    /* ... previous styles here... */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+}
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: “ “;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	}
+
+ul {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #75b88f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+li a {
+	display: block;
+    background-color: #75b88f;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	}
+
+#logo {
+	padding:30vh 0px 0px 0px;
+}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 1.5em;
+	margin-bottom: 25px;
+}
+
+#one {
+	background-color: white;
+	height: 100vh;
+}
+
+#aboutimage {
+	float: left;
+	width: 40%;
+	padding: 5%;
+}
+
+#aboutcontent{
+	color: #545454;
+	float: right;
+	width: 30%;
+	padding: 5% 10% 0% 10%;
+}
+
+#two {
+	clear: both;
+	background-color: #white;
+	height: auto;
+}
+
+#row1, #row2, #row3 {
+	width: 100%;
+}
+
+#three {
+	background-color: white;
+}
+
+#contactimage {
+	display: block;
+	float: right;
+	width: 50%;
+	height: auto;
+}
+
+#contactcontent{
+	display: block;
+	color: #545454;
+	float: left;
+	width: 30%;
+	padding: 10%;
+}
+
+#email a {
+	color: #75b88f;
+}
+
+#email a:hover {
+	color: purple;
+}
+
+#email {
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+#copyright {
+	position: relative;
+	top: 1em;
+}
+
+.wrap {
+	overflow: hidden;
+
+}
+.portfoliorow {
+	font-size: 0;
+}
+
+.portfoliorow {
+	float: left;
+	position: relative;
+	width: 20%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+
+.portfolioitem img {
+   width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+	background: white;
+	background: url(images/computer.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 16px;
+	}
+	
+	#logo {
+		width: 200px;
+		height: auto;
+		padding:8em 0px 0px 0px;
+	}
+
+	#slogan {
+		padding-bottom: 2em;
+	}
+
+	#one {
+		height: auto;
+	}
+
+	#aboutimage {
+	float: none;
+	width: auto;
+	}
+
+	#aboutcontent{
+	color: #545454;
+	float: none;
+	width: auto;
+	padding: 2% 10% 10% 10%;
+	}
+
+	#contactimage {
+	float: none;
+	width: auto;
+	}
+
+	#contactcontent{
+	float: none;
+	width: auto;
+	padding: 2.5%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+		
+	header {
+	background: white;
+	background: url(images/computer.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	ul {
+	position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	}
+
+	li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+	}
+
+	#logo {
+		width: 120px;
+		height: auto;
+		padding:12em 0px 0px 0px;
+	}
+
+	#slogan {
+		font-size: 1em;
+	}
+
+	#cell a {
+	color: blue;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+body {
+	font-size: 10px;
+}
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    width:60%;
+  }
+
+.portfoliorow {
+ display:block;
+}
+
+#cell a {
+	color: blue;
+}
+}
+
+@media only screen and (orientation:portrait) {
+   header {
+   	background: url(images/computer_v.jpg)
+   	background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: 0em 8em; 
+	background-size: 100% auto;
+	height: 60vh; 
+	}
+}
