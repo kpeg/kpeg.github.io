@@ -165,6 +165,10 @@ li a {
    text-align: center;
 }
 
+.portfoliorow {
+	font-size: 0;
+}
+
 .portfoliorow img {
 	display: inline-block;
 	width: 20%;
