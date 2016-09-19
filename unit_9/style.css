@@ -91,6 +91,9 @@ li a {
 	font-family: 'Londrina Solid';
 	font-size: 1.5em;
 	margin-bottom: 25px;
+	padding-right: 10%;
+	padding-left: 10%;
+	}
 }
 
 #one {
@@ -251,7 +254,7 @@ li a {
 	#contactcontent{
 	float: none;
 	width: auto;
-	padding: 2.5%;
+	padding: 15%;
 	}
 }
 
