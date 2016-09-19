@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,100);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+header {
+	background: url(images/kpeg_wh.jpg) no-repeat center center fixed;
+	height:100vh;
+	background-size: 100% auto;
+}
+
+body {
+	color: #ffffff;
+	text-align: center;
+	align-content: center;
+	font-family: 'Work Sans', sans-serif;
+	margin: 0%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font size: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	clear: both;
+}
+
+aside img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	background-color: #75b88f;
+	width: 100%;
+	height: 3em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: “ “;
+	clear: both;
+	height: 0;
+	font-size: 0;
+	}
+
+ul {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #75b88f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+li a {
+	display: block;
+    background-color: #75b88f;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+	}
+
+#logo {
+	padding:30vh 0px 0px 0px;
+}
+
+#slogan {
+	font-family: 'Londrina Solid';
+	font-size: 1.5em;
+	margin-bottom: 25px;
+	padding-right: 10%;
+	padding-left: 10%;
+	}
+}
+
+#one {
+	background-color: white;
+	height: 100vh;
+}
+
+#aboutimage {
+	float: left;
+	width: 40%;
+	padding: 5%;
+}
+
+#aboutcontent{
+	color: #545454;
+	float: right;
+	width: 30%;
+	padding: 5% 10% 0% 10%;
+}
+
+#two {
+	clear: both;
+	background-color: #white;
+	height: auto;
+}
+
+#row1, #row2, #row3 {
+	width: 100%;
+}
+
+#three {
+	background-color: white;
+}
+
+#contactimage {
+	display: block;
+	float: right;
+	width: 50%;
+	height: auto;
+}
+
+#contactcontent{
+	display: block;
+	color: #545454;
+	float: left;
+	width: 30%;
+	padding: 10%;
+}
+
+#email a {
+	color: #75b88f;
+}
+
+#email a:hover {
+	color: purple;
+}
+
+#email {
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+#copyright {
+	position: relative;
+	top: 1em;
+}
+
+.navelements a:hover {
+   background-color: #545454;
+   color: white;
+   text-align: center;
+}
+
+.wrap {
+	overflow: hidden;
+
+}
+.portfoliorow {
+	font-size: 0;
+	clear: both;
+}
+
+.portfoliorow {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+
+.portfolioitem {
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+.portfolioitem img{
+	width: 100%;
+}
+
+.cd-resize-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	overflow: hidden;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+}
+
+.is-visible .cd-resize-img {
+	width: 50%;
+	animation: cd-bounce-in 0.7s;
+}
+
+@keyframes cd-bounce-in {
+	0% {
+		width: 0;
+	}
+	60% {
+		width: 55%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	header {
+	background: white;
+	background: url(images/kpeg_wh.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 16px;
+	}
+	
+	#logo {
+		width: 200px;
+		height: auto;
+		padding:8em 0px 0px 0px;
+	}
+
+	#slogan {
+		padding-bottom: 2em;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#one {
+		height: auto;
+	}
+
+	#aboutimage {
+	float: none;
+	width: auto;
+	}
+
+	#aboutcontent{
+	color: #545454;
+	float: none;
+	width: auto;
+	padding: 2% 10% 10% 10%;
+	}
+
+	.portfolioitem {
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	}
+
+	.portfolioitem img{
+	width: 100%;
+	}
+
+	#contactimage {
+	float: none;
+	width: auto;
+	}
+
+	#contactcontent{
+	float: none;
+	width: auto;
+	padding: 15%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+		
+	header {
+	background: white;
+	background: url(images/kpeg_wh.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+	height: auto;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	ul {
+	position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	}
+
+	li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+	}
+
+	#logo {
+		width: 120px;
+		height: auto;
+		padding:12em 0px 0px 0px;
+	}
+
+	#slogan {
+		font-size: 1em;
+		padding-right: 20%;
+		padding-left: 20%;
+	}
+
+	#cell a {
+	color: blue;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+body {
+	font-size: 10px;
+}
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    width:60%;
+  }
+
+.portfoliorow {
+ display:block;
+}
+
+.portfolioitem {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+#cell a {
+	color: blue;
+}
