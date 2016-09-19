@@ -195,6 +195,34 @@ li a {
 	width: 100%;
 }
 
+.cd-resize-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	overflow: hidden;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+}
+
+.is-visible .cd-resize-img {
+	width: 50%;
+	animation: cd-bounce-in 0.7s;
+}
+
+@keyframes cd-bounce-in {
+	0% {
+		width: 0;
+	}
+	60% {
+		width: 55%;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 
 	header {
