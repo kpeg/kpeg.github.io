@@ -184,6 +184,7 @@ li a {
 
 .portfolioitem {
 	width: 20%;
+	height: auto;
 	float: left;
 }
 
