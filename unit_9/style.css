@@ -171,6 +171,7 @@ li a {
 }
 .portfoliorow {
 	font-size: 0;
+	clear: both;
 }
 
 .portfoliorow {
@@ -182,6 +183,11 @@ li a {
 	margin: 0;
 }
 
+
+.portfolioitem {
+	width: 20%;
+	float: left;
+}
 
 .portfolioitem img {
    width: 100%;
