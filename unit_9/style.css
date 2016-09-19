@@ -188,6 +188,10 @@ li a {
 	float: left;
 }
 
+.portfolioitem img{
+	width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
 
 	header {
