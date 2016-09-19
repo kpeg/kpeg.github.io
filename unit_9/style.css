@@ -213,6 +213,8 @@ li a {
 
 	#slogan {
 		padding-bottom: 2em;
+		padding-right: 10%;
+		padding-left: 10%;
 	}
 
 	#one {
@@ -229,6 +231,16 @@ li a {
 	float: none;
 	width: auto;
 	padding: 2% 10% 10% 10%;
+	}
+
+	.portfolioitem {
+	width: 33.33%;
+	height: 33.33%;
+	float: left;
+	}
+
+	.portfolioitem img{
+	width: 100%;
 	}
 
 	#contactimage {
