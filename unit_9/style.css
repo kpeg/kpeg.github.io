@@ -132,7 +132,7 @@ li a {
 	display: block;
 	float: right;
 	width: 50%;
-	height: 50%;
+	height: auto;
 }
 
 #contactcontent{
@@ -140,7 +140,8 @@ li a {
 	color: #545454;
 	float: left;
 	width: 30%;
-	padding: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #email a {
