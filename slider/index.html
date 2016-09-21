@@ -1,70 +1,48 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-	<title>Kelly Hocutt's Photo Retouching Before After Samples</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>KPEG Photo Sample</title>
 </head>
 <body>
-<figure class="cd-image-container">
-	<img src="images/kelly-original.jpg" alt="Original Image">
-	<span class="cd-image-label" data-type="original">Original</span>
+	<header>
+		<h1>KPEG before &amp; after</h1>
+	</header>
+	<figure class="cd-image-container">
+		<img src="img/img-original.jpg" alt="Original Image">
+		<span class="cd-image-label" data-type="original">Original</span>
 
-	<div class="cd-resize-img">
-		<img src="images/kelly-kpeg.jpg" alt="Modified Image">
-		<span class="cd-image-label" data-type="modified">Modified</span>
+		<div class="cd-resize-img"> <!-- the resizable image on top -->
+			<img src="img/img-modified.jpg" alt="Modified Image">
+			<span class="cd-image-label" data-type="modified">KPEG'd</span>
+		</div>
 
-	</div>
+		<span class="cd-handle"></span>
+	</figure> <!-- cd-image-container -->
 
-	<span class="cd-handle"></span>
-</figure>		
+	<br>
 
-jQuery(document).ready(function($){
+	<figure class="cd-image-container">
+		<img src="img/img-original.jpg" alt="Original Image">
+		<span class="cd-image-label" data-type="original">Original</span>
 
-	$('.cd-image-container').each(function(){
-		var actual = $(this);
-		drags(actual.find('.cd-handle'), actual.find('.cd-resize-img'), actual);
-	});
-});
+		<div class="cd-resize-img"> <!-- the resizable image on top -->
+			<img src="img/img-modified.jpg" alt="Modified Image">
+			<span class="cd-image-label" data-type="modified">KPEG'd</span>
+		</div>
 
-function drags(dragElement, resizeElement, container) {
-	dragElement.on("mousedown vmousedown", function(e) {
-		dragElement.addClass('draggable');
-		resizeElement.addClass('resizable');
-
-		var dragWidth = dragElement.outerWidth(),
-		xPosition = dragElement.offset().left + dragWidth - e.pageX,
-		containerOffset = container.offset().left,
-		containerWidth = container.outerWidth(),
-		minLeft = containerOffset + 10,
-		maxLeft = containerOffset + containerWidth - dragWidth - 10;
-
-		dragElement.parents().on("mousemove vmousemove", function(e) {
-			leftValue = e.pageX + xPosition - dragWidth;
-
-		if(leftValue < minLeft ) {
-			leftValue = minLeft;
-		}	else if ( leftValue > maxLeft) {
-			leftValue = maxLeft;
-		}
-
-		widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%'
-
-		$('.draggable').css('left', widthValue).on("mouseup vmouseup", function() {
-			$(this).removeClass('draggable');
-			resizeElement.removeClass(resizable');
-		});
-
-		$('.resizable').css('width', widthValue);
-
-
-		}).on("mouseup vmouseup", function(e){
-			dragElement.removeClass('draggable');
-			resizeElement.removeClass('resizable');
-		});
-}
-
+		<span class="cd-handle"></span>
+	</figure> <!-- cd-image-container -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
